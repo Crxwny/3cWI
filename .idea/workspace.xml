@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fb513ec-da24-4ecc-ac8b-9ea9beb19aa8" name="Changes" comment="gitignore_update" />
+    <list default="true" id="4fb513ec-da24-4ecc-ac8b-9ea9beb19aa8" name="Changes" comment="added switch file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +82,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IF_Bedingungen_A2_finished" />
     <MESSAGE value="gitignore_update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore_update" />
+    <MESSAGE value="added switch file" />
+    <MESSAGE value="removed idea folder" />
+    <MESSAGE value="deleted switch file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted switch file" />
   </component>
 </project>
