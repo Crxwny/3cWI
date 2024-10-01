@@ -11,7 +11,7 @@ public class IF_Bedingungen_A1 {
         System.out.println(randomNumber);
         // Wenn die Zahl kleiner ist als 20  gib aus "Mini"
         if (randomNumber<20) {
-            System.out.printf("Mini");
+            System.out.println("Mini");
         }
         // Wenn die Zahl zw. 20 und 50 ist gib aus "Medium"
         if (randomNumber>= 20 && randomNumber <= 50) {
