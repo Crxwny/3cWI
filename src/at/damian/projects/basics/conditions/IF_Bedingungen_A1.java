@@ -1,3 +1,5 @@
+package at.damian.projects.basics.conditions;
+
 import java.util.Random;
 
 public class IF_Bedingungen_A1 {

@@ -1,3 +1,5 @@
+package at.damian.projects.basics.tasks;
+
 import java.util.Scanner;
 
 public class Bankomat {

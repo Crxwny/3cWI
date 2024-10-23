@@ -1,3 +1,5 @@
+package at.damian.projects.basics.games;
+
 import java.util.Random;
 import java.util.Scanner;
 

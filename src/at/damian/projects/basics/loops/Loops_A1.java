@@ -1,3 +1,5 @@
+package at.damian.projects.basics.loops;
+
 public class Loops_A1 {
     public static void main(String[] args) {
 

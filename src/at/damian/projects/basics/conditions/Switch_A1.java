@@ -1,4 +1,4 @@
-// Erstelle eine Zufallszahl zwischen 5 und 10
+package at.damian.projects.basics.conditions;// Erstelle eine Zufallszahl zwischen 5 und 10
 
 // Wenn der Wert 10 ist gib aus Ten
 // Wenn der Wert 9 ist gib aus Nine
