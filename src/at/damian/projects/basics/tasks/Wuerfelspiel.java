@@ -1,4 +1,4 @@
-package at.damian.projects.basics.games;
+package at.damian.projects.basics.tasks;
 
 import java.util.Random;
 import java.util.Scanner;
