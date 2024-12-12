@@ -33,6 +33,7 @@ public class Main {
         c1.addWheel(w2);
         c1.addWheel(w3);
         c1.addWheel(w4);
+        c1.getMirrors();
 
 
         Car c2 = new Car(e1, 20, 6, 20, "Mercedes", "M1234", "red");
