@@ -4,8 +4,10 @@ public class LightElement {
     private String name;
     private String color;
     private double consumption;
-    enum STATUS{ON, OFF}
+    public enum STATUS{ON, OFF}
     private STATUS status;
+
+
 
     public LightElement(String name, STATUS status, double consumption, String color) {
         this.name = name;
