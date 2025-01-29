@@ -22,4 +22,9 @@ public class Battery {
         }
     }
 
+    @Override
+    public String toString() {
+        return "";
+    }
+
 }

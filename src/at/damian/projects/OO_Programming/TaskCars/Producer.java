@@ -46,4 +46,9 @@ public class Producer {
             this.discount = discount;
         }
     }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }

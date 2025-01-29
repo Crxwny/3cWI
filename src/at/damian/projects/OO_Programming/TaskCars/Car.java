@@ -5,17 +5,19 @@ public class Car {
     private int maxSpeed;
     private int basePrice;
     private double baseConsumption;
+    private double fuelAmount;
     private Engine engine;
     private Producer producer;
     private int drivenKilometers;
 
-    public Car(String color, int maxSpeed, int basePrice, int baseConsumption, Engine engine, Producer producer) {
+    public Car(String color, int maxSpeed, int basePrice, int baseConsumption, Engine engine, Producer producer, double fuelAmount) {
         this.color = color;
         this.maxSpeed = maxSpeed;
         this.basePrice = basePrice;
         this.baseConsumption = baseConsumption;
         this.engine = engine;
         this.producer = producer;
+        this.fuelAmount = fuelAmount;
     }
 
     public Producer getProducer() {
@@ -74,17 +76,31 @@ public class Car {
         this.drivenKilometers = drivenKilometers;
     }
 
+    public double getFuelAmount() {
+        return fuelAmount;
+    }
+
+    public void setFuelAmount(double fuelAmount) {
+        this.fuelAmount = fuelAmount;
+    }
+
     public double Price() {
         return this.basePrice - (double) (this.basePrice * getProducer().getDiscount()) / 100;
     }
 
-    private double Consumption() {
+    public double getConsumption() {
         if (drivenKilometers > 50000) {
-            return (getBaseConsumption() *  0.98);
+            return (getBaseConsumption() *  1.098);
         } else {
             return getBaseConsumption();
         }
     }
+
+    public double getPrice() {
+        return this.basePrice - (double) (this.basePrice * getProducer().getDiscount()) / 100;
+    }
+
+
 
 
 }
