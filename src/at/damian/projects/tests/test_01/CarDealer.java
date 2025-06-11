@@ -1,4 +1,4 @@
-package at.damian.projects.tests;
+package at.damian.projects.tests.test_01;
 
 import java.util.ArrayList;
 
